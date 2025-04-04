@@ -1,12 +1,12 @@
 pipeline{
   agent any
   stages{
-    stage{
+    stage('build'){
       steps{
         echo "git pipeline"
       }
     }
-    stage{
+    stage('execute'){
       steps{
         echo "another stage"
       }
