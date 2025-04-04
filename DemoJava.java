@@ -1,6 +1,6 @@
 
 class DemoJava{
-   public sttaic void main(String[] args){
-          Sstem.out.println("Hellooo");
+   public static void main(String[] args){
+          System.out.println("Hellooo");
    }
 }
